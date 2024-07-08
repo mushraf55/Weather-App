@@ -13,19 +13,18 @@ body {
 }
 .card {
   background-color: #8de8ed;
-  width: 600px;
-  padding: 100px;
+  padding: 10vmin;
   border-radius: 30px;
 }
 .error-handle {
   display: none;
-  font-size: 20px;
+  font-size: 2vmin;
   text-align: center;
   font-weight: 500;
   margin-top: 50px;
 }
 .btn {
-  font-size: 22px;
+  font-size: 2vmin;
   border-radius: 50%;
   padding: 15px;
   margin-left: 10px;
@@ -43,7 +42,7 @@ body {
   background-color: rgb(33, 33, 33);
 }
 .input-field {
-  font-size: 22px;
+  font-size: 2vmin;
   padding: 12px 18px;
   border: none;
   outline: none;
@@ -63,15 +62,28 @@ body {
   text-align: center;
   margin-top: 20px;
 }
-
+.weather h1 {
+  font-size: 5vmin;
+}
+.weather h2 {
+  font-size: 5vmin;
+}
 .humidity h4 {
   margin-top: 10px;
+  font-size: 2vmin;
+}
+.humidity p {
+  font-size: 2vmin;
+}
+.wind p {
+  font-size: 2vmin;
 }
 .wind h4 {
   margin-top: 10px;
+  font-size: 2vmin;
 }
 .fa-solid {
-  font-size: 30px;
+  font-size: 3vmin;
 }
 
 /*---media-queries---*/
