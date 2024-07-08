@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4c3c3;
+}
+.card {
+  background-color: #8de8ed;
+  width: 600px;
+  padding: 100px;
+  border-radius: 30px;
+}
+.error-handle {
+  display: none;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.btn {
+  font-size: 22px;
+  border-radius: 50%;
+  padding: 15px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(55, 55, 55);
+  color: white;
+  transition: 0.2s ease;
+}
+.btn:hover {
+  opacity: 0.8;
+  transition: 0.2s ease;
+}
+.btn:active {
+  background-color: rgb(33, 33, 33);
+}
+.input-field {
+  font-size: 22px;
+  padding: 12px 18px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.weather {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.humidity h4 {
+  margin-top: 10px;
+}
+.wind h4 {
+  margin-top: 10px;
+}
+.fa-solid {
+  font-size: 30px;
+}
+
+/*---media-queries---*/
+
+@media screen and (max-width: 370px) {
+  .card {
+    width: 0;
+  }
+}
